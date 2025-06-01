@@ -3,7 +3,7 @@
 import { Octokit } from "@octokit/rest";
 
 const octokit = new Octokit({
-  auth: "YOUR_GITHUB_TOKEN",
+  auth: "YOUR_GITHUB_TOKEN", // Replace with your GitHub token
 });
 
 const users = [];
