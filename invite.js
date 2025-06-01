@@ -6,7 +6,7 @@ const octokit = new Octokit({
   auth: "YOUR_GITHUB_TOKEN", // Replace with your GitHub token
 });
 
-const users = [];
+const users = []; // Replace with the list of usernames you want to invite
 const org = "YOUR_ORG_NAME"; // Replace with your organization name
 
 const already = [];
